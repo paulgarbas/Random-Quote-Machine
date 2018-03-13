@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    color: #fff;
+    background: url("img/machine.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100%;
+    font-family: 'Play', 'sans-serif';
+}
+
+.col-sm {
+    padding: 0;
+}
+
+h1 {
+    background: rgba(0, 0, 0, 0.60);
+    padding: 15px 0;
+}
+
+button.new-quote {
+    margin-top: 60px;
+    border: solid 1px rgba(0, 0, 0, 0.60);
+    background: rgba(255, 255, 255, 0.70);
+    padding: 8px 15px;
+    border-radius: 30% 0% 30% 0%;
+    font-weight: 700;
+}
+
+button.new-quote:hover {
+    cursor: pointer;
+    border: solid 1px rgba(0, 0, 0, 0.90);
+    background: rgba(255, 255, 255, 0.90);
+}
+
+button.new-quote:active {
+    border: solid 1px rgba(0, 0, 0, 0.60);
+    background: rgba(255, 255, 255, 0.50);
+}
+
+button.new-quote:focus {
+    outline: none;
+}
+
+.quote {
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    max-width: 800px;
+    padding: 10px 20px;
+    border: solid 1px rgba(0, 0, 0, 0.60);
+    background: rgba(255, 255, 255, 0.70);
+    color: #000;
+}
+
+footer {
+    font-size: 20px;
+}
+
+.tweet {
+    display: inline-block;
+    margin-top: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.60); 
+    background: rgba(255, 255, 255, 0.70);
+    border-radius: 3px;
+}
+
+.tweet:hover {
+    cursor: pointer;
+    border: solid 1px rgba(0, 0, 0, 0.90);
+    background: rgba(255, 255, 255, 0.90);
+}
+
+.tweet:active {
+    border: solid 1px rgba(0, 0, 0, 0.60);
+    background: rgba(255, 255, 255, 0.50);
+}
+
+.tweet img {
+    width: 35px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a {
+    color: #000;
+    background: rgba(255, 255, 255, 0.70);
+    padding: 0 3px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.40);
+}
+
+
+
+
+
+ 
